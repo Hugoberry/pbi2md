@@ -1,0 +1,1332 @@
+{
+  "create": {
+    "database": {
+      "name": "f659128b-f581-44b6-b7d8-cc91e2c63d9a",
+      "compatibilityLevel": 1465,
+      "model": {
+        "culture": "en-US",
+        "dataSources": [
+          {
+            "name": "35add352-3dc4-46db-861d-ec902f4aff5e",
+            "connectionString": "provider=Microsoft.PowerBI.OleDb;global pipe=da02e50e-7c66-4bbf-93c7-96c43a11cb5e;mashup=\"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\";location=COVID",
+            "impersonationMode": "impersonateCurrentUser"
+          },
+          {
+            "name": "55c3c531-fe96-4b5b-ba0c-b7f6962bea4c",
+            "connectionString": "provider=Microsoft.PowerBI.OleDb;global pipe=da02e50e-7c66-4bbf-93c7-96c43a11cb5e;mashup=\"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\";location=StateDim",
+            "impersonationMode": "impersonateCurrentUser"
+          },
+          {
+            "name": "d938c893-e6bc-4f05-9e5b-7ad0ebf25874",
+            "connectionString": "provider=Microsoft.PowerBI.OleDb;global pipe=da02e50e-7c66-4bbf-93c7-96c43a11cb5e;mashup=\"UEsDBBQAAgAIANVLflAi6+jQqgAAAPoAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPTQ6CMBSEr0K655VC+M2jLNxKYkI0bglUaIRioFju5sIjeQVNFOPO3cyXbzHzuN0xW/rOuopxkoNKCQOHWEJVQy1Vk5JZn+yIZBx3ZXUuG2G9ZDUly1SnpNX6klBqjAHjwTA21HUcRo/5tqha0ZfkK8v/si3VpEtVCcLx8B7DXQhj8MMggtBlSFeMuVRrZuCD58YBOEh/MG7mTs+j4ELZ+wLpWpF+fvAnUEsDBBQAAgAIANVLflAPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACADVS35QUa3rjbsBAAD6AgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVJdb9owFH1H4j9Y2YsjRZHQWDep2gOknTRWYCWslKGq8pwLWHFsZN9sY4j/PjsOqTb1viQ59+Oce24scBRakTw8B9f9Xr9n98xAQZbshwTykUjAfo+4yHVtuEeaTPrJ6Gqhf1k6sVqlN5rXFSikY6GYOaY3wHV1MGDtBfH1S/iNNBLDdytu33/NP1h7LAezb4/j+d3tEB9wspjK/MtgLVe8lLO7aTni67ejx0lW7iSKfDWZfy8reS/HIs8P90e5O8z261GUkMBxq7guhNqlY2bhahgnJGtFCC8RtpIhxA52O5FndKtQiscDEHS6YlIBMrLJwQgmxR8oUi/XFaGp4SkmQpFQ3BizmQIawV36GRMyNwWY5v0pToJdb6Jsz9TOO+m6os63pWHKbrWpMi3rSvmkpcHb5HSKwli3UifsnJBT1BA49LPCq2Hqm87nC9OoRr2ASv+EIsy0A8cWct31fOA/x3tgsgb6n8yEbJxPrJYYRs1Y5U8eNW1Rt5wPEyi7mUFCq4A6UwLcAvOtn+/h04uL7ZbG/SymaD+ksHiO48Aj1Avfq/Z5fZa2Uhyl8yvNJDDlBlyaX/Hn+i9QSwECLQAUAAIACADVS35QIuvo0KoAAAD6AAAAEgAAAAAAAAAAAAAAAAAAAAAAQ29uZmlnL1BhY2thZ2UueG1sUEsBAi0AFAACAAgA1Ut+UA/K6aukAAAA6QAAABMAAAAAAAAAAAAAAAAA9gAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAIACADVS35QUa3rjbsBAAD6AgAAEwAAAAAAAAAAAAAAAADnAQAARm9ybXVsYXMvU2VjdGlvbjEubVBLBQYAAAAAAwADAMIAAADvAwAAAAA=\";location=Table",
+            "impersonationMode": "impersonateCurrentUser"
+          },
+          {
+            "name": "1c80af2b-eebf-475d-9e25-4b539339b9dd",
+            "connectionString": "provider=Microsoft.PowerBI.OleDb;global pipe=da02e50e-7c66-4bbf-93c7-96c43a11cb5e;mashup=UEsDBBQAAgAIANVLflAi6+jQqgAAAPoAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPTQ6CMBSEr0K655VC+M2jLNxKYkI0bglUaIRioFju5sIjeQVNFOPO3cyXbzHzuN0xW/rOuopxkoNKCQOHWEJVQy1Vk5JZn+yIZBx3ZXUuG2G9ZDUly1SnpNX6klBqjAHjwTA21HUcRo/5tqha0ZfkK8v/si3VpEtVCcLx8B7DXQhj8MMggtBlSFeMuVRrZuCD58YBOEh/MG7mTs+j4ELZ+wLpWpF+fvAnUEsDBBQAAgAIANVLflAPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACADVS35Q8ueAcIABAAD6AgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVJNawIxEL0L/oewvWRhWRCsF+mhagu2tFK17UFE0nXUlGwiyWy/xP/eCYkutc5l2Tczb96biYMCpdFsEr6tbrPRbLiNsLBkF0l/9DIcsBKEqyy4hF0xBdhsMIqJqWwBhEzFm4L81ppybD4dv3NG5wNTVCVo5D2phf3OB1CYcksU7oD4+il8IU9k+/L1QU3u35+er5OMhfyNLsxS6nXeEw467TRj/UggPT2slEBICSY9bIEkg3P83gJD4kxJMQo2m4CVQskfWOZ+FBWhrWCeMqlZKPbS2axvVFXqFuUXOE+z4I/Mb4Re0xqmVJocjU6t0G5lbBm6fNLxsIxst0siFxkZauy0c5/f72vSMZTmg0hDnat5QyLC/GR6VhMfua4rNJEtdnkHIXe8kg/8c6QXoSrg/4VkbEZrFZXCgDyK0l/39Akc9+PDRo7zHjCLcARGK+/Fw7t6+1m4hKUHYpfxR0mH+zQNc6Su5529gBfqeJRCI+nSeV+B0ERwaD6zq+4vUEsBAi0AFAACAAgA1Ut+UCLr6NCqAAAA+gAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIANVLflAPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPYAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgA1Ut+UPLngHCAAQAA+gIAABMAAAAAAAAAAAAAAAAA5wEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAtAMAAAAA;location=\"COVID measures\"",
+            "impersonationMode": "impersonateCurrentUser"
+          }
+        ],
+        "tables": [
+          {
+            "name": "DateTableTemplate_fe7eb183-f12b-4c88-bb89-cfaa7f88e1df",
+            "isHidden": true,
+            "isPrivate": true,
+            "columns": [
+              {
+                "type": "calculatedTableColumn",
+                "name": "Date",
+                "dataType": "dateTime",
+                "isNameInferred": true,
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "sourceColumn": "[Date]",
+                "dataCategory": "PaddedDateTableDates",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "DateTime#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Year",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "YEAR([Date])",
+                "dataCategory": "Years",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Year"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "MonthNo",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "MONTH([Date])",
+                "dataCategory": "MonthOfYear",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "MonthNumber"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Month",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "FORMAT([Date], \"MMMM\")",
+                "sortByColumn": "MonthNo",
+                "dataCategory": "Months",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Month"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "QuarterNo",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "INT(([MonthNo] + 2) / 3)",
+                "dataCategory": "QuarterOfYear",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "QuarterNumber"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Quarter",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "\"Qtr \" & [QuarterNo]",
+                "sortByColumn": "QuarterNo",
+                "dataCategory": "Quarters",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Quarter"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Day",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "DAY([Date])",
+                "dataCategory": "DayOfMonth",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Day"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              }
+            ],
+            "partitions": [
+              {
+                "name": "DateTableTemplate_fe7eb183-f12b-4c88-bb89-cfaa7f88e1df-30604837-d47d-48d6-b5a3-b689e47bd491",
+                "mode": "import",
+                "source": {
+                  "type": "calculated",
+                  "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
+                }
+              }
+            ],
+            "hierarchies": [
+              {
+                "name": "Date Hierarchy",
+                "levels": [
+                  {
+                    "name": "Year",
+                    "ordinal": 0,
+                    "column": "Year"
+                  },
+                  {
+                    "name": "Quarter",
+                    "ordinal": 1,
+                    "column": "Quarter"
+                  },
+                  {
+                    "name": "Month",
+                    "ordinal": 2,
+                    "column": "Month"
+                  },
+                  {
+                    "name": "Day",
+                    "ordinal": 3,
+                    "column": "Day"
+                  }
+                ],
+                "annotations": [
+                  {
+                    "name": "TemplateId",
+                    "value": "DateHierarchy"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "__PBI_TemplateDateTable",
+                "value": "true"
+              },
+              {
+                "name": "DefaultItem",
+                "value": "DateHierarchy"
+              }
+            ]
+          },
+          {
+            "name": "COVID",
+            "columns": [
+              {
+                "name": "County Name",
+                "dataType": "string",
+                "sourceColumn": "County Name",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "County Name"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "State",
+                "dataType": "string",
+                "sourceColumn": "State",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "State"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "stateFIPS",
+                "dataType": "string",
+                "isHidden": true,
+                "sourceColumn": "stateFIPS",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "stateFIPS"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "Date",
+                "dataType": "dateTime",
+                "sourceColumn": "Date",
+                "summarizeBy": "none",
+                "variations": [
+                  {
+                    "name": "Variation",
+                    "relationship": "61d3981d-89bc-4f78-b2b7-ab908a42ac71",
+                    "defaultHierarchy": {
+                      "table": "LocalDateTable_a0f5b894-4f57-4a54-a9d5-5508aa5843d0",
+                      "hierarchy": "Date Hierarchy"
+                    },
+                    "isDefault": true
+                  }
+                ],
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"1033\" Group=\"ShortDate\" FormatString=\"M/d/yyyy\" /></DateTimes></Format>"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "DateTime#####Date"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "Date"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  },
+                  {
+                    "name": "UnderlyingDateTimeDataType",
+                    "value": "Date"
+                  }
+                ]
+              },
+              {
+                "name": "Cases",
+                "dataType": "int64",
+                "sourceColumn": "Cases",
+                "formatString": "0",
+                "summarizeBy": "sum",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "Cases"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "FIPS",
+                "dataType": "string",
+                "sourceColumn": "FIPS",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "FIPS"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "Deaths",
+                "dataType": "int64",
+                "sourceColumn": "Deaths",
+                "formatString": "0",
+                "summarizeBy": "sum",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "Deaths"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "County",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "expression": "'COVID'[County Name] & \", \" & 'COVID'[State]",
+                "dataCategory": "County",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Daily cases",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "expression": [
+                  "",
+                  "VAR __CountyName = 'COVID'[County Name]",
+                  "VAR __State = 'COVID'[State]",
+                  "VAR __Yesterday =  DATEADD(COVID[Date],-1,DAY)",
+                  "VAR __TodaysCases = 'COVID'[Cases]",
+                  "",
+                  "RETURN  __TodaysCases - CALCULATE(",
+                  "    SUM('COVID'[Cases]) , ",
+                  "    FILTER(",
+                  "        COVID, ",
+                  "        COVID[Date] = __Yesterday &&",
+                  "        COVID[County Name] = __CountyName &&",
+                  "        COVID[State] = __State",
+                  "    )",
+                  ") + 0"
+                ],
+                "formatString": "#,0",
+                "summarizeBy": "sum",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" ThousandSeparator=\"True\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Daily deaths",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "expression": [
+                  "",
+                  "VAR __CountyName = 'COVID'[County Name]",
+                  "VAR __State = 'COVID'[State]",
+                  "VAR __Yesterday =  DATEADD(COVID[Date],-1,DAY)",
+                  "VAR __TodaysDeaths = 'COVID'[Deaths]",
+                  "",
+                  "RETURN  __TodaysDeaths - CALCULATE(",
+                  "    SUM('COVID'[Deaths]) , ",
+                  "    FILTER(",
+                  "        COVID, ",
+                  "        COVID[Date] = __Yesterday &&",
+                  "        COVID[County Name] = __CountyName &&",
+                  "        COVID[State] = __State",
+                  "    )",
+                  ") + 0"
+                ],
+                "formatString": "0",
+                "summarizeBy": "sum",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              }
+            ],
+            "partitions": [
+              {
+                "name": "COVID-2e509512-c6a9-426c-b8d3-3b5c4542fa79",
+                "mode": "import",
+                "source": {
+                  "query": "SELECT * FROM [COVID]",
+                  "dataSource": "35add352-3dc4-46db-861d-ec902f4aff5e"
+                }
+              }
+            ],
+            "measures": [
+              {
+                "name": "Updated",
+                "expression": "\"Data provided by USAFacts. Because of the frequency of data upates, they may not reflect the exact numbers reported by government organizations or the news media. For more information or to download the data, please click the logo below.  Data updated through \" & FORMAT([Max date],\"mmmm dd, yyyy\") & \".\"",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Max date",
+                "expression": "CALCULATE(MAX('COVID'[Date]),ALL('COVID'))",
+                "formatString": "General Date",
+                "isHidden": true,
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_Id",
+                "value": "9da589dc-7022-48d2-8508-8578ce650b03"
+              },
+              {
+                "name": "LinkedQueryName",
+                "value": "COVID"
+              },
+              {
+                "name": "PBI_NavigationStepName",
+                "value": "Navigation"
+              },
+              {
+                "name": "PBI_ResultType",
+                "value": "Table"
+              }
+            ]
+          },
+          {
+            "name": "StateDim",
+            "columns": [
+              {
+                "name": "State",
+                "dataType": "string",
+                "sourceColumn": "State",
+                "dataCategory": "StateOrProvince",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "State"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "State code",
+                "dataType": "string",
+                "sourceColumn": "State code",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "State code"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "US territories",
+                "dataType": "string",
+                "sourceColumn": "US territories",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "US territories"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Country",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "\"USA\"",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              }
+            ],
+            "partitions": [
+              {
+                "name": "StateDim-44150ab7-d238-4a8e-be80-b5d1ac40ecec",
+                "mode": "import",
+                "source": {
+                  "query": "SELECT * FROM [StateDim]",
+                  "dataSource": "55c3c531-fe96-4b5b-ba0c-b7f6962bea4c"
+                }
+              }
+            ],
+            "measures": [
+              {
+                "name": "Drill-through button text",
+                "expression": "IF(SELECTEDVALUE(StateDim[State],0)==0,\"Click on a State to view by County  \", \"Click here to view by County in \" & VALUES(StateDim[State code]) &\"  \")",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_Id",
+                "value": "8d0c94a5-f730-45b7-b89d-05ec4286a3f6"
+              },
+              {
+                "name": "LinkedQueryName",
+                "value": "StateDim"
+              },
+              {
+                "name": "PBI_ResultType",
+                "value": "Table"
+              },
+              {
+                "name": "PBI_NavigationStepName",
+                "value": "Navigation"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "columns": [
+              {
+                "name": "Metric",
+                "dataType": "string",
+                "sourceColumn": "Metric",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "Metric"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              },
+              {
+                "name": "Order",
+                "dataType": "int64",
+                "sourceColumn": "Order",
+                "formatString": "0",
+                "summarizeBy": "sum",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "Automatic"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  },
+                  {
+                    "name": "PBI_NameAtRefresh",
+                    "value": "Order"
+                  },
+                  {
+                    "name": "PBI_WasHiddenAtRefresh",
+                    "value": "False"
+                  }
+                ]
+              }
+            ],
+            "partitions": [
+              {
+                "name": "Table-014a30af-502f-48fd-98ad-986611bf42ec",
+                "mode": "import",
+                "source": {
+                  "query": "SELECT * FROM [Table]",
+                  "dataSource": "d938c893-e6bc-4f05-9e5b-7ad0ebf25874"
+                }
+              }
+            ],
+            "measures": [
+              {
+                "name": "Methodology",
+                "expression": [
+                  "\"This interactive feature aggregates data from the Centers for Disease Control and Prevention (CDC), state- and local-level public health agencies. County-level data is confirmed by referencing state and local agencies directly.",
+                  "",
+                  "Source: USAFacts\""
+                ],
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Notes",
+                "expression": [
+                  "\"New York* covers 5 counties (Bronx, Kings, New York, Queens, Richmond), not New York county.",
+                  "",
+                  "City of St. Louis was renamed to St. Louis City.",
+                  "",
+                  "City and Borough of Juneau was renamed to Juneau Borough.",
+                  "",
+                  "Municipality of Anchorage was renamed to Anchorage.",
+                  "",
+                  "Jackson County includes other portions of Kansas City.",
+                  "",
+                  "",
+                  "Source: USAFacts\""
+                ],
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Terms of use",
+                "expression": "\"This report and data are provided \" & \"\"\"\" & \"as is\" & \"\"\"\" & \", \" & \"\"\"\" & \"with all faults\" & \"\"\"\" & \", and without warranty of any kind. Microsoft gives no express warranties or guarantees and expressly disclaims all implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.\"",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_Id",
+                "value": "30ef5030-b957-44aa-b2fe-fd23bb5972e1"
+              },
+              {
+                "name": "LinkedQueryName",
+                "value": "Table"
+              },
+              {
+                "name": "PBI_ResultType",
+                "value": "Table"
+              },
+              {
+                "name": "PBI_NavigationStepName",
+                "value": "Navigation"
+              }
+            ]
+          },
+          {
+            "name": "LocalDateTable_a0f5b894-4f57-4a54-a9d5-5508aa5843d0",
+            "isHidden": true,
+            "showAsVariationsOnly": true,
+            "columns": [
+              {
+                "type": "calculatedTableColumn",
+                "name": "Date",
+                "dataType": "dateTime",
+                "isNameInferred": true,
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "sourceColumn": "[Date]",
+                "dataCategory": "PaddedDateTableDates",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "DateTime#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Year",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "YEAR([Date])",
+                "dataCategory": "Years",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Year"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "MonthNo",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "MONTH([Date])",
+                "dataCategory": "MonthOfYear",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "MonthNumber"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Month",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "FORMAT([Date], \"MMMM\")",
+                "sortByColumn": "MonthNo",
+                "dataCategory": "Months",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Month"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "QuarterNo",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "INT(([MonthNo] + 2) / 3)",
+                "dataCategory": "QuarterOfYear",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "QuarterNumber"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Quarter",
+                "dataType": "string",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "\"Qtr \" & [QuarterNo]",
+                "sortByColumn": "QuarterNo",
+                "dataCategory": "Quarters",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Quarter"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Text\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "String#####not a type"
+                  }
+                ]
+              },
+              {
+                "type": "calculated",
+                "name": "Day",
+                "dataType": "int64",
+                "isDataTypeInferred": true,
+                "isHidden": true,
+                "expression": "DAY([Date])",
+                "dataCategory": "DayOfMonth",
+                "summarizeBy": "none",
+                "annotations": [
+                  {
+                    "name": "SummarizationSetBy",
+                    "value": "User"
+                  },
+                  {
+                    "name": "TemplateId",
+                    "value": "Day"
+                  },
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+                  },
+                  {
+                    "name": "DataTypeAtRefresh",
+                    "value": "Int64#####not a type"
+                  }
+                ]
+              }
+            ],
+            "partitions": [
+              {
+                "name": "LocalDateTable_a0f5b894-4f57-4a54-a9d5-5508aa5843d0-216ce373-b93c-43b1-9d26-654b8ba9e95b",
+                "mode": "import",
+                "source": {
+                  "type": "calculated",
+                  "expression": "Calendar(Date(Year(MIN('COVID'[Date])), 1, 1), Date(Year(MAX('COVID'[Date])), 12, 31))"
+                }
+              }
+            ],
+            "hierarchies": [
+              {
+                "name": "Date Hierarchy",
+                "levels": [
+                  {
+                    "name": "Year",
+                    "ordinal": 0,
+                    "column": "Year"
+                  },
+                  {
+                    "name": "Quarter",
+                    "ordinal": 1,
+                    "column": "Quarter"
+                  },
+                  {
+                    "name": "Month",
+                    "ordinal": 2,
+                    "column": "Month"
+                  },
+                  {
+                    "name": "Day",
+                    "ordinal": 3,
+                    "column": "Day"
+                  }
+                ],
+                "annotations": [
+                  {
+                    "name": "TemplateId",
+                    "value": "DateHierarchy"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "__PBI_LocalDateTable",
+                "value": "true"
+              }
+            ]
+          },
+          {
+            "name": "COVID measures",
+            "partitions": [
+              {
+                "name": "COVID measures-b4337b49-e425-4b90-acb0-30bb0500cb95",
+                "mode": "import",
+                "source": {
+                  "query": "SELECT * FROM [COVID measures]",
+                  "dataSource": "1c80af2b-eebf-475d-9e25-4b539339b9dd"
+                }
+              }
+            ],
+            "measures": [
+              {
+                "name": "Total confirmed cases",
+                "expression": "SUM('COVID'[Daily cases])",
+                "formatString": "#,0",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" ThousandSeparator=\"True\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Total deaths",
+                "expression": "SUM(COVID[Daily deaths])",
+                "formatString": "#,0",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" ThousandSeparator=\"True\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Case fatality rate",
+                "expression": [
+                  "DIVIDE([Total deaths],[Total confirmed cases])",
+                  ""
+                ],
+                "formatString": "0.0%;-0.0%;0.0%",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"Percentage\" Accuracy=\"1\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Confirmed cases",
+                "expression": "SUM('COVID'[Cases])",
+                "formatString": "#,0",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" ThousandSeparator=\"True\" />"
+                  }
+                ]
+              },
+              {
+                "name": "Deaths",
+                "expression": "SUM('COVID'[Deaths])",
+                "formatString": "#,0",
+                "annotations": [
+                  {
+                    "name": "Format",
+                    "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" ThousandSeparator=\"True\" />"
+                  }
+                ]
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_Id",
+                "value": "b1d47e97-0d7b-4e83-940b-c74bf3b01ea6"
+              },
+              {
+                "name": "LinkedQueryName",
+                "value": "COVID measures"
+              },
+              {
+                "name": "PBI_NavigationStepName",
+                "value": "Navigation"
+              },
+              {
+                "name": "PBI_ResultType",
+                "value": "Table"
+              }
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "name": "61d3981d-89bc-4f78-b2b7-ab908a42ac71",
+            "fromTable": "COVID",
+            "fromColumn": "Date",
+            "toTable": "LocalDateTable_a0f5b894-4f57-4a54-a9d5-5508aa5843d0",
+            "toColumn": "Date",
+            "joinOnDateBehavior": "datePartOnly"
+          },
+          {
+            "name": "7cd80576-d9a4-4516-aad6-c8e06584bf7c",
+            "fromTable": "COVID",
+            "fromColumn": "State",
+            "toTable": "StateDim",
+            "toColumn": "State code"
+          }
+        ],
+        "cultures": [
+          {
+            "name": "en-US",
+            "linguisticMetadata": {
+              "content": "{\"Version\":\"1.0.0\",\"Language\":\"en-US\",\"DynamicImprovement\":\"HighConfidence\"}"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_TimeIntelligenceEnabled",
+            "value": "1"
+          },
+          {
+            "name": "PBIDesktopVersion",
+            "value": "2.80.5803.1061 (20.04)"
+          }
+        ]
+      }
+    }
+  }
+}
+
