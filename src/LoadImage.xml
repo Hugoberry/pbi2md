@@ -1,0 +1,14 @@
+<ImageLoad xmlns=\"http://schemas.microsoft.com/analysisservices/2003/engine\" 
+    xmlns:ddl100=\"http://schemas.microsoft.com/analysisservices/2008/engine/100\" 
+    xmlns:ddl200_200=\"http://schemas.microsoft.com/analysisservices/2010/engine/200/200\" 
+    xmlns:ddl100_100=\"http://schemas.microsoft.com/analysisservices/2008/engine/100/100\">
+    <ddl200_200:ImagePath>{0}</ddl200_200:ImagePath>
+    <ddl200_200:ImageUniqueID>{1}</ddl200_200:ImageUniqueID>
+    <ddl200_200:ImageVersion>{2}</ddl200_200:ImageVersion>
+    <ddl200_200:ImageUrl>{3}</ddl200_200:ImageUrl>
+    <ddl100_100:DbStorageLocation>{4}</ddl100_100:DbStorageLocation>
+    <ddl100:ReadWriteMode>{5}</ddl100:ReadWriteMode>
+    <DatabaseName>{6}</DatabaseName>
+    <DatabaseID>{7}</DatabaseID>
+</ImageLoad>
+<!-- (object) filePath, null, null, null, null, (object) "ReadWrite", (object) databaseName, (object) databaseName -->
