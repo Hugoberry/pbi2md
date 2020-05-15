@@ -10,7 +10,6 @@ let
     #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
     Cols = Table.ColumnNames(#"Promoted Headers"),
     ColsUnpivot = List.Skip(Cols,4),
-    #"Unpivoted Only Selected Columns" = Table.Unpivot(#"Promoted Headers", ColsUnpivot, "Attribute", "Value"),
     #"Changed Type" = Table.TransformColumnTypes(#"Unpivoted Only Selected Columns",{{"Value", Int64.Type}}),
     #"Removed Errors" = Table.RemoveRowsWithErrors(#"Changed Type", {"Value"}),
     #"Renamed Columns" = Table.RenameColumns(#"Removed Errors",{{"Attribute", "Date"}, {"Value", "Cases"}}),
@@ -25,7 +24,7 @@ let
     Source = Csv.Document(AzureStorage.BlobContents("https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_deaths_usafacts.csv"),[Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]),
     #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
     Cols = Table.ColumnNames(#"Promoted Headers"),
-    ColsUnpivot = List.Skip(Cols,4),
+    ColsUnpivot = List.Skip(Cols,5),
     #"Unpivoted Only Selected Columns" = Table.Unpivot(#"Promoted Headers", ColsUnpivot, "Attribute", "Value"),
     #"Changed Type" = Table.TransformColumnTypes(#"Unpivoted Only Selected Columns",{{"Value", Int64.Type}}),
     #"Removed Errors" = Table.RemoveRowsWithErrors(#"Changed Type", {"Value"}),
@@ -85,8 +84,8 @@ in
 |Table Name|Modified Time|Structure Modified Time|Count|
 |-|-|-|-|
 |COVID|27/03/2020 17:57:42|28/03/2020 03:39:25|217396|
-|StateDim|27/03/2020 17:57:42|28/03/2020 03:18:24|57|
 |Table|27/03/2020 17:57:42|30/03/2020 23:06:27|3|
+|test|11|11|33|
 
 ## Layout
 Main [1280x720]
@@ -103,7 +102,6 @@ Main [1280x720]
 - shapeMap
 - actionButton
 - Blue Map
-- actionButton
 - actionButton
 - shapeMap
 - actionButton
@@ -135,8 +133,6 @@ County view
 │       Gradation_with_text894674291833967.GIF
 │       USAFacts_Wordmark_blue8192537517759648.png
 └───SharedResources
-    ├───BaseThemes
-    │       CY19SU12.json
     └───Shapemaps
             usa.states.topo.json
 ```
