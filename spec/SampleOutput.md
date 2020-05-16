@@ -153,7 +153,9 @@ RETURN  __TodaysDeaths - CALCULATE(
 |Table|27/03/2020 17:57:42|30/03/2020 23:06:27|3|
 
 ## Layout
-### Main [1280x720]
+### Main 
+[1280x720]
+#### Visuals
 - Daily increments
 - actionButton
 - clusteredColumnChart 
@@ -183,6 +185,10 @@ RETURN  __TodaysDeaths - CALCULATE(
 - Group 1
 - image
 - actionButton
+
+#### Relationships
+
+#### Filters
 
 ### County view
 
