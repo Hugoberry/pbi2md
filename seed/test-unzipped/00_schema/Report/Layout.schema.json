@@ -1,31 +1,53 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
     "properties": {
-        "id": {},
-        "filters": {},
+        "id": {
+            "type": "integer"
+        },
+        "filters": {
+            "type": "string"
+        },
         "resourcePackages": {
+            "type": "array",
             "items": {
                 "anyOf": [
                     {
+                        "type": "object",
                         "properties": {
                             "resourcePackage": {
+                                "type": "object",
                                 "properties": {
-                                    "name": {},
-                                    "type": {},
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "type": {
+                                        "type": "integer"
+                                    },
                                     "items": {
+                                        "type": "array",
                                         "items": {
                                             "anyOf": [
                                                 {
+                                                    "type": "object",
                                                     "properties": {
-                                                        "type": {},
-                                                        "path": {},
-                                                        "name": {}
+                                                        "type": {
+                                                            "type": "integer"
+                                                        },
+                                                        "path": {
+                                                            "type": "string"
+                                                        },
+                                                        "name": {
+                                                            "type": "string"
+                                                        }
                                                     }
                                                 }
                                             ]
                                         }
                                     },
-                                    "disabled": {}
+                                    "disabled": {
+                                        "type": "boolean"
+                                    }
                                 }
                             }
                         }
@@ -34,108 +56,235 @@
             }
         },
         "sections": {
+            "type": "array",
             "items": {
                 "anyOf": [
                     {
+                        "type": "object",
                         "properties": {
-                            "name": {},
-                            "displayName": {},
-                            "filters": {},
-                            "ordinal": {},
+                            "name": {
+                                "type": "string"
+                            },
+                            "displayName": {
+                                "type": "string"
+                            },
+                            "filters": {
+                                "type": "string"
+                            },
+                            "ordinal": {
+                                "type": "integer"
+                            },
                             "visualContainers": {
+                                "type": "array",
                                 "items": {
                                     "anyOf": [
                                         {
+                                            "type": "object",
                                             "properties": {
-                                                "x": {},
-                                                "y": {},
-                                                "z": {},
-                                                "width": {},
-                                                "height": {},
-                                                "config": {}
+                                                "x": {
+                                                    "type": "number"
+                                                },
+                                                "y": {
+                                                    "type": "number"
+                                                },
+                                                "z": {
+                                                    "type": "integer"
+                                                },
+                                                "width": {
+                                                    "type": "number"
+                                                },
+                                                "height": {
+                                                    "type": "number"
+                                                },
+                                                "config": {
+                                                    "type": "string"
+                                                }
                                             }
                                         },
                                         {
+                                            "type": "object",
                                             "properties": {
-                                                "x": {},
-                                                "y": {},
-                                                "z": {},
-                                                "width": {},
-                                                "height": {},
-                                                "config": {},
-                                                "filters": {},
-                                                "tabOrder": {}
+                                                "x": {
+                                                    "type": "number"
+                                                },
+                                                "y": {
+                                                    "type": "integer"
+                                                },
+                                                "z": {
+                                                    "type": "integer"
+                                                },
+                                                "width": {
+                                                    "type": "number"
+                                                },
+                                                "height": {
+                                                    "type": "number"
+                                                },
+                                                "config": {
+                                                    "type": "string"
+                                                },
+                                                "filters": {
+                                                    "type": "string"
+                                                },
+                                                "tabOrder": {
+                                                    "type": "integer"
+                                                }
                                             }
                                         },
                                         {
+                                            "type": "object",
                                             "properties": {
-                                                "x": {},
-                                                "y": {},
-                                                "z": {},
-                                                "width": {},
-                                                "height": {},
-                                                "config": {},
-                                                "filters": {},
-                                                "tabOrder": {},
-                                                "query": {},
-                                                "dataTransforms": {}
+                                                "x": {
+                                                    "type": "number"
+                                                },
+                                                "y": {
+                                                    "type": "number"
+                                                },
+                                                "z": {
+                                                    "type": "integer"
+                                                },
+                                                "width": {
+                                                    "type": "number"
+                                                },
+                                                "height": {
+                                                    "type": "number"
+                                                },
+                                                "config": {
+                                                    "type": "string"
+                                                },
+                                                "filters": {
+                                                    "type": "string"
+                                                },
+                                                "tabOrder": {
+                                                    "type": "integer"
+                                                },
+                                                "query": {
+                                                    "type": "string"
+                                                },
+                                                "dataTransforms": {
+                                                    "type": "string"
+                                                }
                                             }
                                         },
                                         {
+                                            "type": "object",
                                             "properties": {
-                                                "x": {},
-                                                "y": {},
-                                                "z": {},
-                                                "width": {},
-                                                "height": {},
-                                                "config": {},
-                                                "filters": {}
+                                                "x": {
+                                                    "type": "number"
+                                                },
+                                                "y": {
+                                                    "type": "integer"
+                                                },
+                                                "z": {
+                                                    "type": "integer"
+                                                },
+                                                "width": {
+                                                    "type": "integer"
+                                                },
+                                                "height": {
+                                                    "type": "number"
+                                                },
+                                                "config": {
+                                                    "type": "string"
+                                                },
+                                                "filters": {
+                                                    "type": "string"
+                                                }
                                             }
                                         },
                                         {
+                                            "type": "object",
                                             "properties": {
-                                                "x": {},
-                                                "y": {},
-                                                "z": {},
-                                                "width": {},
-                                                "height": {},
-                                                "config": {},
-                                                "filters": {},
-                                                "tabOrder": {},
-                                                "query": {}
+                                                "x": {
+                                                    "type": "number"
+                                                },
+                                                "y": {
+                                                    "type": "number"
+                                                },
+                                                "z": {
+                                                    "type": "integer"
+                                                },
+                                                "width": {
+                                                    "type": "number"
+                                                },
+                                                "height": {
+                                                    "type": "number"
+                                                },
+                                                "config": {
+                                                    "type": "string"
+                                                },
+                                                "filters": {
+                                                    "type": "string"
+                                                },
+                                                "tabOrder": {
+                                                    "type": "integer"
+                                                },
+                                                "query": {
+                                                    "type": "string"
+                                                }
                                             }
                                         }
                                     ]
                                 }
                             },
-                            "config": {},
-                            "displayOption": {},
-                            "width": {},
-                            "height": {}
+                            "config": {
+                                "type": "string"
+                            },
+                            "displayOption": {
+                                "type": "integer"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            }
                         }
                     }
                 ]
             }
         },
-        "config": {},
-        "layoutOptimization": {},
+        "config": {
+            "type": "string"
+        },
+        "layoutOptimization": {
+            "type": "integer"
+        },
         "pods": {
+            "type": "array",
             "items": {
                 "anyOf": [
                     {
+                        "type": "object",
                         "properties": {
-                            "name": {},
-                            "boundSection": {},
-                            "config": {}
+                            "name": {
+                                "type": "string"
+                            },
+                            "boundSection": {
+                                "type": "string"
+                            },
+                            "config": {
+                                "type": "string"
+                            }
                         }
                     },
                     {
+                        "type": "object",
                         "properties": {
-                            "name": {},
-                            "boundSection": {},
-                            "parameters": {},
-                            "type": {},
-                            "config": {}
+                            "name": {
+                                "type": "string"
+                            },
+                            "boundSection": {
+                                "type": "string"
+                            },
+                            "parameters": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "integer"
+                            },
+                            "config": {
+                                "type": "string"
+                            }
                         }
                     }
                 ]

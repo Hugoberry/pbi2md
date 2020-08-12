@@ -1,43 +1,80 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
     "properties": {
-        "version": {},
+        "version": {
+            "type": "string"
+        },
         "author": {
+            "type": "object",
             "properties": {
-                "name": {},
-                "email": {}
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                }
             }
         },
         "resources": {
+            "type": "array",
             "items": {
                 "anyOf": [
                     {
+                        "type": "object",
                         "properties": {
-                            "resourceId": {},
-                            "sourceType": {},
-                            "file": {}
+                            "resourceId": {
+                                "type": "string"
+                            },
+                            "sourceType": {
+                                "type": "integer"
+                            },
+                            "file": {
+                                "type": "string"
+                            }
                         }
                     }
                 ]
             }
         },
         "visual": {
+            "type": "object",
             "properties": {
-                "guid": {},
-                "name": {},
-                "displayName": {},
-                "version": {},
-                "description": {},
-                "supportUrl": {},
-                "gitHubUrl": {},
-                "visualClassName": {}
+                "guid": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "displayName": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "supportUrl": {
+                    "type": "string"
+                },
+                "gitHubUrl": {
+                    "type": "string"
+                },
+                "visualClassName": {
+                    "type": "string"
+                }
             }
         },
         "metadata": {
+            "type": "object",
             "properties": {
                 "pbivizjson": {
+                    "type": "object",
                     "properties": {
-                        "resourceId": {}
+                        "resourceId": {
+                            "type": "string"
+                        }
                     }
                 }
             }

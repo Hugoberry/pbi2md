@@ -1,43 +1,81 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
     "properties": {
-        "version": {},
+        "version": {
+            "type": "string"
+        },
         "diagrams": {
+            "type": "array",
             "items": {
                 "anyOf": [
                     {
+                        "type": "object",
                         "properties": {
-                            "name": {},
-                            "zoomValue": {},
-                            "isDefault": {},
+                            "name": {
+                                "type": "string"
+                            },
+                            "zoomValue": {
+                                "type": "integer"
+                            },
+                            "isDefault": {
+                                "type": "boolean"
+                            },
                             "tables": {
+                                "type": "array",
                                 "items": {
                                     "anyOf": [
-                                        {}
+                                        {
+                                            "type": "string"
+                                        }
                                     ]
                                 }
                             },
                             "layout": {
+                                "type": "object",
                                 "properties": {
-                                    "boundingBoxWidth": {},
-                                    "boundingBoxHeight": {},
+                                    "boundingBoxWidth": {
+                                        "type": "number"
+                                    },
+                                    "boundingBoxHeight": {
+                                        "type": "integer"
+                                    },
                                     "boundingBoxPosition": {
+                                        "type": "object",
                                         "properties": {
-                                            "x": {},
-                                            "y": {}
+                                            "x": {
+                                                "type": "number"
+                                            },
+                                            "y": {
+                                                "type": "integer"
+                                            }
                                         }
                                     },
                                     "nodes": {
+                                        "type": "array",
                                         "items": {
                                             "anyOf": [
                                                 {
+                                                    "type": "object",
                                                     "properties": {
-                                                        "height": {},
-                                                        "layedOut": {},
-                                                        "left": {},
-                                                        "nodeIndex": {},
-                                                        "top": {},
-                                                        "width": {}
+                                                        "height": {
+                                                            "type": "integer"
+                                                        },
+                                                        "layedOut": {
+                                                            "type": "boolean"
+                                                        },
+                                                        "left": {
+                                                            "type": "number"
+                                                        },
+                                                        "nodeIndex": {
+                                                            "type": "string"
+                                                        },
+                                                        "top": {
+                                                            "type": "integer"
+                                                        },
+                                                        "width": {
+                                                            "type": "integer"
+                                                        }
                                                     }
                                                 }
                                             ]
