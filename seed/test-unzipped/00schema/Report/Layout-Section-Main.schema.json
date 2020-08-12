@@ -1,0 +1,145 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "id": {},
+        "filters": {},
+        "resourcePackages": {
+            "items": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "resourcePackage": {
+                                "properties": {
+                                    "name": {},
+                                    "type": {},
+                                    "items": {
+                                        "items": {
+                                            "anyOf": [
+                                                {
+                                                    "properties": {
+                                                        "type": {},
+                                                        "path": {},
+                                                        "name": {}
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "disabled": {}
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "sections": {
+            "items": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "name": {},
+                            "displayName": {},
+                            "filters": {},
+                            "ordinal": {},
+                            "visualContainers": {
+                                "items": {
+                                    "anyOf": [
+                                        {
+                                            "properties": {
+                                                "x": {},
+                                                "y": {},
+                                                "z": {},
+                                                "width": {},
+                                                "height": {},
+                                                "config": {}
+                                            }
+                                        },
+                                        {
+                                            "properties": {
+                                                "x": {},
+                                                "y": {},
+                                                "z": {},
+                                                "width": {},
+                                                "height": {},
+                                                "config": {},
+                                                "filters": {},
+                                                "tabOrder": {}
+                                            }
+                                        },
+                                        {
+                                            "properties": {
+                                                "x": {},
+                                                "y": {},
+                                                "z": {},
+                                                "width": {},
+                                                "height": {},
+                                                "config": {},
+                                                "filters": {},
+                                                "tabOrder": {},
+                                                "query": {},
+                                                "dataTransforms": {}
+                                            }
+                                        },
+                                        {
+                                            "properties": {
+                                                "x": {},
+                                                "y": {},
+                                                "z": {},
+                                                "width": {},
+                                                "height": {},
+                                                "config": {},
+                                                "filters": {}
+                                            }
+                                        },
+                                        {
+                                            "properties": {
+                                                "x": {},
+                                                "y": {},
+                                                "z": {},
+                                                "width": {},
+                                                "height": {},
+                                                "config": {},
+                                                "filters": {},
+                                                "tabOrder": {},
+                                                "query": {}
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "config": {},
+                            "displayOption": {},
+                            "width": {},
+                            "height": {}
+                        }
+                    }
+                ]
+            }
+        },
+        "config": {},
+        "layoutOptimization": {},
+        "pods": {
+            "items": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "name": {},
+                            "boundSection": {},
+                            "config": {}
+                        }
+                    },
+                    {
+                        "properties": {
+                            "name": {},
+                            "boundSection": {},
+                            "parameters": {},
+                            "type": {},
+                            "config": {}
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

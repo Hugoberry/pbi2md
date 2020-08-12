@@ -1,0 +1,696 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "create": {
+            "properties": {
+                "database": {
+                    "properties": {
+                        "name": {},
+                        "compatibilityLevel": {},
+                        "model": {
+                            "properties": {
+                                "culture": {},
+                                "dataSources": {
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "connectionString": {},
+                                                    "impersonationMode": {}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "tables": {
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "isHidden": {},
+                                                    "isPrivate": {},
+                                                    "columns": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isNameInferred": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "sourceColumn": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "expression": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "expression": {},
+                                                                        "sortByColumn": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "partitions": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "mode": {},
+                                                                        "source": {
+                                                                            "properties": {
+                                                                                "type": {},
+                                                                                "expression": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "hierarchies": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "levels": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "ordinal": {},
+                                                                                            "column": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "annotations": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "value": {}
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "columns": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "sourceColumn": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isHidden": {},
+                                                                        "sourceColumn": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "sourceColumn": {},
+                                                                        "summarizeBy": {},
+                                                                        "variations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "relationship": {},
+                                                                                            "defaultHierarchy": {
+                                                                                                "properties": {
+                                                                                                    "table": {},
+                                                                                                    "hierarchy": {}
+                                                                                                }
+                                                                                            },
+                                                                                            "isDefault": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "sourceColumn": {},
+                                                                        "formatString": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "expression": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "expression": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {}
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "formatString": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "partitions": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "mode": {},
+                                                                        "source": {
+                                                                            "properties": {
+                                                                                "query": {},
+                                                                                "dataSource": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "measures": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "expression": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "expression": {},
+                                                                        "formatString": {},
+                                                                        "isHidden": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "annotations": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "value": {}
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "isHidden": {},
+                                                    "showAsVariationsOnly": {},
+                                                    "columns": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isNameInferred": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "sourceColumn": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "expression": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "properties": {
+                                                                        "type": {},
+                                                                        "name": {},
+                                                                        "dataType": {},
+                                                                        "isDataTypeInferred": {},
+                                                                        "isHidden": {},
+                                                                        "expression": {},
+                                                                        "sortByColumn": {},
+                                                                        "dataCategory": {},
+                                                                        "summarizeBy": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "partitions": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "mode": {},
+                                                                        "source": {
+                                                                            "properties": {
+                                                                                "type": {},
+                                                                                "expression": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "hierarchies": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "levels": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "ordinal": {},
+                                                                                            "column": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "annotations": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "value": {}
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "partitions": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "mode": {},
+                                                                        "source": {
+                                                                            "properties": {
+                                                                                "query": {},
+                                                                                "dataSource": {}
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "measures": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "expression": {},
+                                                                        "formatString": {},
+                                                                        "annotations": {
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "properties": {
+                                                                                            "name": {},
+                                                                                            "value": {}
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "annotations": {
+                                                        "items": {
+                                                            "anyOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "name": {},
+                                                                        "value": {}
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "relationships": {
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "fromTable": {},
+                                                    "fromColumn": {},
+                                                    "toTable": {},
+                                                    "toColumn": {},
+                                                    "joinOnDateBehavior": {}
+                                                }
+                                            },
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "fromTable": {},
+                                                    "fromColumn": {},
+                                                    "toTable": {},
+                                                    "toColumn": {}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "cultures": {
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "linguisticMetadata": {
+                                                        "properties": {
+                                                            "content": {}
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "annotations": {
+                                    "items": {
+                                        "anyOf": [
+                                            {
+                                                "properties": {
+                                                    "name": {},
+                                                    "value": {}
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

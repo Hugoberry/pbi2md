@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "version": {},
+        "author": {
+            "properties": {
+                "name": {},
+                "email": {}
+            }
+        },
+        "resources": {
+            "items": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "resourceId": {},
+                            "sourceType": {},
+                            "file": {}
+                        }
+                    }
+                ]
+            }
+        },
+        "visual": {
+            "properties": {
+                "guid": {},
+                "name": {},
+                "displayName": {},
+                "version": {},
+                "description": {},
+                "supportUrl": {},
+                "gitHubUrl": {},
+                "visualClassName": {}
+            }
+        },
+        "metadata": {
+            "properties": {
+                "pbivizjson": {
+                    "properties": {
+                        "resourceId": {}
+                    }
+                }
+            }
+        }
+    }
+}

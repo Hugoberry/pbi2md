@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "version": {},
+        "diagrams": {
+            "items": {
+                "anyOf": [
+                    {
+                        "properties": {
+                            "name": {},
+                            "zoomValue": {},
+                            "isDefault": {},
+                            "tables": {
+                                "items": {
+                                    "anyOf": [
+                                        {}
+                                    ]
+                                }
+                            },
+                            "layout": {
+                                "properties": {
+                                    "boundingBoxWidth": {},
+                                    "boundingBoxHeight": {},
+                                    "boundingBoxPosition": {
+                                        "properties": {
+                                            "x": {},
+                                            "y": {}
+                                        }
+                                    },
+                                    "nodes": {
+                                        "items": {
+                                            "anyOf": [
+                                                {
+                                                    "properties": {
+                                                        "height": {},
+                                                        "layedOut": {},
+                                                        "left": {},
+                                                        "nodeIndex": {},
+                                                        "top": {},
+                                                        "width": {}
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
