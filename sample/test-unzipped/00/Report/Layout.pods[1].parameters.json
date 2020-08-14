@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Param_Filter",
+      "boundFilter": "Filter",
+      "fieldExpr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "StateDim"
+            }
+          },
+          "Property": "State"
+        }
+      }
+    }
+  ]
